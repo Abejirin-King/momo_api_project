@@ -9,8 +9,11 @@ DATA_PATH = Path('dsa/transactions.json')
 HOST = '0.0.0.0'
 PORT = 8000
 
-VALID_USER = 'student'
-VALID_PASS = 'password123'
+import os
+...
+VALID_USER = os.environ.get('MOMO_USER', 'student')
+VALID_PASS = os.environ.get('MOMO_PASS', 'password123')
+
 
 def check_auth_header(header_value):
     if not header_value:
