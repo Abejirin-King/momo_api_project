@@ -61,22 +61,20 @@ Errors:
 
 ## Examples (curl)
 
-Replace `BASE` with `http://localhost:8000` and `CRED` with base64(student:password123) or use `-u student:password123`.
-
 1) List (authorized):
 curl -u student:password123 http://localhost:8000/transactions
 
 2) Unauthorized:
-curl http://localhost:8000/transactions
+curl http://127.0.0.1:8000/transactions
 
 3) Get:
-curl -u student:password123 http://localhost:8000/transactions/1
+curl -u student:password123 http://127.0.0.1:8000/transactions/1
 
 4) Create:
-curl -u student:password123 -X POST http://localhost:8000/transactions -H "Content-Type: application/json" -d '{"address":"M-Money","transaction": {"type":"test","amount":10}}'
+curl -u student:password123 -X POST http://127.0.0.1:8000/transactions -H "Content-Type: application/json" -d '{"address":"M-Money","transaction": {"type":"test","amount":10}}'
 
 5) Update:
-curl -u student:password123 -X PUT http://localhost:8000/transactions/1 -H "Content-Type: application/json" -d '{"address":"M-Money","transaction": {"type":"updated","amount":20}}'
+curl -u student:password123 -X PUT http://127.0.0.1:8000/transactions/2 -H "Content-Type: application/json" -d '{"address":"M-Money","transaction": {"type":"updated","amount":20}}'
 
 6) Delete:
-curl -u student:password123 -X DELETE http://localhost:8000/transactions/1
+curl -u student:password123 -X DELETE http://127.0.0.1:8000/transactions/1

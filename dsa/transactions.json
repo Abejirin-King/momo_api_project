@@ -1,68 +1,9 @@
 [
   {
-    "raw_attrs": {
-      "protocol": "0",
-      "address": "M-Money",
-      "date": "1715351458724",
-      "type": "1",
-      "subject": "null",
-      "body": "You have received 2000 RWF from Jane Smith (*********013) on your mobile money account at 2024-05-10 16:30:51. Message from sender: . Your new balance:2000 RWF. Financial Transaction Id: 76662021700.",
-      "toa": "null",
-      "sc_toa": "null",
-      "service_center": "+250788110381",
-      "read": "1",
-      "status": "-1",
-      "locked": "0",
-      "date_sent": "1715351451000",
-      "sub_id": "6",
-      "readable_date": "10 May 2024 4:30:58 PM",
-      "contact_name": "(Unknown)"
-    },
     "address": "M-Money",
-    "date_unix_ms": 1715351458724,
-    "readable_date": "10 May 2024 4:30:58 PM",
-    "service_center": "+250788110381",
-    "contact_name": "(Unknown)",
-    "body": "You have received 2000 RWF from Jane Smith (*********013) on your mobile money account at 2024-05-10 16:30:51. Message from sender: . Your new balance:2000 RWF. Financial Transaction Id: 76662021700.",
     "transaction": {
-      "tx_id": "76662021700",
-      "amount": 2000,
-      "currency": "RWF",
-      "type": "receive",
-      "name": "Jane Smith"
-    },
-    "id": 1
-  },
-  {
-    "raw_attrs": {
-      "protocol": "0",
-      "address": "M-Money",
-      "date": "1715351506754",
-      "type": "1",
-      "subject": "null",
-      "body": "TxId: 73214484437. Your payment of 1,000 RWF to Jane Smith 12845 has been completed at 2024-05-10 16:31:39. Your new balance: 1,000 RWF. Fee was 0 RWF.Kanda*182*16# wiyandikishe muri poromosiyo ya BivaMoMotima, ugire amahirwe yo gutsindira ibihembo bishimishije.",
-      "toa": "null",
-      "sc_toa": "null",
-      "service_center": "+250788110381",
-      "read": "1",
-      "status": "-1",
-      "locked": "0",
-      "date_sent": "1715351498000",
-      "sub_id": "6",
-      "readable_date": "10 May 2024 4:31:46 PM",
-      "contact_name": "(Unknown)"
-    },
-    "address": "M-Money",
-    "date_unix_ms": 1715351506754,
-    "readable_date": "10 May 2024 4:31:46 PM",
-    "service_center": "+250788110381",
-    "contact_name": "(Unknown)",
-    "body": "TxId: 73214484437. Your payment of 1,000 RWF to Jane Smith 12845 has been completed at 2024-05-10 16:31:39. Your new balance: 1,000 RWF. Fee was 0 RWF.Kanda*182*16# wiyandikishe muri poromosiyo ya BivaMoMotima, ugire amahirwe yo gutsindira ibihembo bishimishije.",
-    "transaction": {
-      "tx_id": "73214484437",
-      "amount": 1000,
-      "currency": "RWF",
-      "type": "payment"
+      "type": "updated",
+      "amount": 20
     },
     "id": 2
   },
@@ -3399,13 +3340,39 @@
     "id": 100
   },
   {
-    "id": 101,
-    "address": "Test",
-    "body": "Updated",
+    "raw_attrs": {
+      "protocol": "0",
+      "address": "M-Money",
+      "date": "1717141156889",
+      "type": "1",
+      "subject": "null",
+      "body": "*113*R*A bank deposit of 5000 RWF has been added to your mobile money account at 2024-05-31 09:39:09. Your NEW BALANCE :5700 RWF. Cash Deposit::CASH::::0::250795963036.Thank you for using MTN MobileMoney.*EN#",
+      "toa": "null",
+      "sc_toa": "null",
+      "service_center": "+250788110381",
+      "read": "1",
+      "status": "-1",
+      "locked": "0",
+      "date_sent": "1717141149000",
+      "sub_id": "6",
+      "readable_date": "31 May 2024 9:39:16 AM",
+      "contact_name": "(Unknown)"
+    },
+    "address": "M-Money",
+    "date_unix_ms": 1717141156889,
+    "readable_date": "31 May 2024 9:39:16 AM",
+    "service_center": "+250788110381",
+    "contact_name": "(Unknown)",
+    "body": "*113*R*A bank deposit of 5000 RWF has been added to your mobile money account at 2024-05-31 09:39:09. Your NEW BALANCE :5700 RWF. Cash Deposit::CASH::::0::250795963036.Thank you for using MTN MobileMoney.*EN#",
     "transaction": {
-      "type": "test",
-      "amount": 75
-    }
+      "tx_id": "250795963036",
+      "amount": 5000,
+      "currency": "RWF",
+      "type": "deposit",
+      "name": "Cash Deposit",
+      "phone": "250795963036"
+    },
+    "id": 101
   },
   {
     "raw_attrs": {
@@ -57517,5 +57484,37 @@
       "type": "payment"
     },
     "id": 1691
+  },
+  {
+    "address": "M-Money",
+    "transaction": {
+      "type": "test",
+      "amount": 10
+    },
+    "id": 1692
+  },
+  {
+    "address": "M-Money",
+    "transaction": {
+      "type": "test",
+      "amount": 10
+    },
+    "id": 1693
+  },
+  {
+    "address": "M-Money",
+    "transaction": {
+      "type": "test",
+      "amount": 10
+    },
+    "id": 1694
+  },
+  {
+    "address": "M-Money",
+    "transaction": {
+      "type": "test",
+      "amount": 10
+    },
+    "id": 1695
   }
 ]
