@@ -3399,39 +3399,13 @@
     "id": 100
   },
   {
-    "raw_attrs": {
-      "protocol": "0",
-      "address": "M-Money",
-      "date": "1717141156889",
-      "type": "1",
-      "subject": "null",
-      "body": "*113*R*A bank deposit of 5000 RWF has been added to your mobile money account at 2024-05-31 09:39:09. Your NEW BALANCE :5700 RWF. Cash Deposit::CASH::::0::250795963036.Thank you for using MTN MobileMoney.*EN#",
-      "toa": "null",
-      "sc_toa": "null",
-      "service_center": "+250788110381",
-      "read": "1",
-      "status": "-1",
-      "locked": "0",
-      "date_sent": "1717141149000",
-      "sub_id": "6",
-      "readable_date": "31 May 2024 9:39:16 AM",
-      "contact_name": "(Unknown)"
-    },
-    "address": "M-Money",
-    "date_unix_ms": 1717141156889,
-    "readable_date": "31 May 2024 9:39:16 AM",
-    "service_center": "+250788110381",
-    "contact_name": "(Unknown)",
-    "body": "*113*R*A bank deposit of 5000 RWF has been added to your mobile money account at 2024-05-31 09:39:09. Your NEW BALANCE :5700 RWF. Cash Deposit::CASH::::0::250795963036.Thank you for using MTN MobileMoney.*EN#",
+    "id": 101,
+    "address": "Test",
+    "body": "Updated",
     "transaction": {
-      "tx_id": "250795963036",
-      "amount": 5000,
-      "currency": "RWF",
-      "type": "deposit",
-      "name": "Cash Deposit",
-      "phone": "250795963036"
-    },
-    "id": 101
+      "type": "test",
+      "amount": 75
+    }
   },
   {
     "raw_attrs": {
